@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱博森 & 张馨月 恋爱两周年</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 庆祝朱博森 & 张馨月恋爱两周年 🎉</h1>
+        </header>
+        
+        <section class="couple-section">
+            <div class="photo-container">
+                <img src="img/love.jpg" alt="浪漫情侣插图" class="couple-photo">
+            </div>
+            <div class="message">
+                <p>亲爱的朱博森和张馨月：</p>
+                <p>730天的相知相守，</p>
+                <p>17520小时的甜蜜时光，</p>
+                <p>1051200分钟的温馨陪伴...</p>
+                <p>愿我们的爱情如这数字般不断增长，</p>
+                <p>愿我们的幸福如这时光般永恒绵长！</p>
+            </div>
+        </section>
+
+        <section class="countdown">
+            <h2>距离三周年还有：</h2>
+            <div class="timer">
+                <div class="time-block">
+                    <span id="days">00</span>
+                    <span>天</span>
+                </div>
+                <div class="time-block">
+                    <span id="hours">00</span>
+                    <span>小时</span>
+                </div>
+                <div class="time-block">
+                    <span id="minutes">00</span>
+                    <span>分钟</span>
+                </div>
+                <div class="time-block">
+                    <span id="seconds">00</span>
+                    <span>秒</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 隐藏的甜蜜信息 -->
+        <section class="secret-messages">
+            <button class="secret-button">💌 点击查看我们的甜蜜回忆</button>
+            <div class="messages-container">
+                <div class="message-box">
+                    <p>还记得我们第一次约会吗？</p>
+                    <p>那天你穿着羽绒服，</p>
+                    <p>在月光下笑得那么灿烂...</p>
+                </div>
+                <div class="message-box">
+                    <p>每次你生气的时候，</p>
+                    <p>我都会想起你嘟嘴的样子，</p>
+                    <p>然后忍不住笑出来...</p>
+                </div>
+                <div class="message-box">
+                    <p>谢谢你一直以来的包容，</p>
+                    <p>未来的每一天，</p>
+                    <p>我都会更加爱你！</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <div id="hearts-container"></div>
+    
+    <!-- 音乐播放器 -->
+    <div class="music-player">
+        <button id="music-toggle" aria-label="播放/暂停音乐">🎵</button>
+        <audio id="bg-music" loop>
+            <source src="love.mp3" type="audio/mpeg">
+            您的浏览器不支持音频播放
+        </audio>
+    </div>
+
+    <!-- 狗狗动画容器 -->
+    <div class="dogs-container"></div>
+</body>
+</html>
